@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.hcontainer{
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 33rem;
+    background: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headnav{
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.headerlist{
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60rem;
+}
+
+.headerlist li{
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 0 19px 0 19px;
+}
+
+.contactbtn{
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    padding: 14px 27px 14px 27px;
+    border: none;
+    border-radius: 22px;
+    background-color: hsl(0, 0%, 100%);
+    margin-right: 3.3rem;
+    
+}
+
+.logo{
+    font-family: 'Barlow', sans-serif;
+    padding-left: 3.2rem;
+}
+
+.mainh1{
+    font-family: 'Fraunces', serif;
+    letter-spacing: 7px;
+    text-align: center;
+    font-weight: 900px;
+    padding-top: 5rem;
+    text-transform: uppercase;
+}
+
+.fsection{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+
+.divfsection{
+    padding: 9rem 13rem 9rem 11.5rem;
+    width: 50%;
+    line-height: 27px;
+}
+
+.tybp{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.tybp2{
+    font-family: 'Barlow', sans-serif;
+    padding-top: 30px;
+    line-height: 27px;
+}
+
+.lmp{
+    font-family: 'Fraunces', serif;
+    padding-top: 33px;
+    text-transform: uppercase;
+    text-decoration: underline solid 4px hsl(51, 100%, 49%);
+    word-spacing: 2px;
+}
+
+.imgegg{
+    width: 50%;
+    height: 100%;
+}
+
+.lmp2{
+    font-family: 'Fraunces', serif;
+    padding-top: 33px;
+    text-transform: uppercase;
+    text-decoration: underline solid 4px hsl(7, 99%, 70%);
+    word-spacing: 2px;
+}
+
+.fsection2{
+    display: flex;
+    width: 100%;
+    height: 35rem;
+}
+
+.div1{
+    color: hsl(167, 40%, 24%);
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.div2{
+    color: hsl(198, 62%, 26%);
+    background-image: url(images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.Gdh{
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 25rem;
+}
+
+.Gdp{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding: 20px 14rem 2rem 14rem;
+}
+
+.Gdh1{
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 25rem;
+}
+
+.Gdp1{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding: 20px 14rem 2rem 14rem;
+}
+
+.ct{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(232, 10%, 55%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.clientcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    width: 100%;
+    height: 30rem;
+}
+
+.lsectiiondiv1{
+    display: block;
+    height:25rem;
+    width: 53rem; 
+}
+
+.limg{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(212, 27%, 19%);
+    text-align: center;
+    padding: 3rem 7rem 3rem 7rem;
+}
+
+.name{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    text-align: center;
+}
+
+.occupation{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text1{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(212, 27%, 19%);
+    text-align: center;
+    padding: 3rem 6.5rem 3rem 7rem;
+}
+
+.asidefinale{
+    display: flex;
+    width: 100%;
+}
+
+.imgfinale{
+    width: 25rem;
+    height: 26rem;
+}
+
+footer{
+    background-color: #86e9d5;
+}
+
+.pfooter{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    padding-top: 4rem;
+}
+
+footer ul {
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    display: flex;
+    padding-left: 42rem;
+    padding-top: 20px;
+}
+
+footer ul li{
+    font-family: 'Barlow', sans-serif;
+    text-transform: capitalize;
+    padding: 10px 20px 2rem 20px;
+}
+
+.awesome-socialicon{
+    padding-left: 46rem;
+}
+
+.fa-brands fa-square-facebook{
+    background-color: hsl(168, 34%, 41%);
+}
